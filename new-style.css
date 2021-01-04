@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+   
+  body {
+    background: rgb(97, 176, 255);
+    color: black;
+  }
+  
+  .main {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .mydiv {
+      background: purple;
+      color: white;
+  }
